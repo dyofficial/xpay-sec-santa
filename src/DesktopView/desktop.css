@@ -1,0 +1,223 @@
+body {
+  height: 100vh;
+  background: url("../DesktopView/Images/bigtree.svg") 10% 90% no-repeat,
+    url("../DesktopView/Images/smalltree.svg") bottom 50px right 100px no-repeat;
+  margin-top: 5vh;
+}
+.header {
+  background-color: #1a5286;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 227px;
+}
+.ep-logo {
+  position: absolute;
+  top: 50px;
+}
+.header-santa {
+  position: absolute;
+  top: 129px;
+  height: 183px;
+  z-index: 1;
+}
+.header-trees {
+  position: absolute;
+  top: 130px;
+  height: 140px;
+  z-index: 0;
+}
+.sec-santa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Titania";
+  height: 55px;
+  /* top: 331px; */
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  color: #0f2f4d;
+}
+.at-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin-left: 56px;
+  margin-right: 56px;
+  flex-direction: column;
+  margin-top: 42px;
+  font-size: 16px;
+  text-align: center;
+  color: #4e5862;
+  height: 181px;
+  font: normal normal normal 16px/23px Gotham;
+  letter-spacing: 0px;
+  opacity: 1;
+  line-height: 2;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 402px;
+  margin: auto auto;
+  text-decoration: none;
+}
+.log-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Titania";
+  height: 55px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  color: #0f2f4d;
+  font-weight: 400;
+}
+.pac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Titania";
+  height: 55px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  color: #0f2f4d;
+  font-weight: 400;
+}
+.tap-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin-left: 56px;
+  margin-right: 56px;
+  flex-direction: column;
+  top: 300px;
+  font-size: 50px;
+  text-align: center;
+  color: #4e5862;
+  height: 181px;
+  font: normal normal normal 16px/23px Gotham;
+  letter-spacing: 0px;
+  opacity: 1;
+  line-height: 2;
+  height: 50px;
+  padding: 15px 15px;
+  margin-top: 30px;
+}
+.hello {
+  margin-top: 40px;
+  color: #0f2f4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.loading-one {
+  margin-top: 500px;
+}
+.ava {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.desk-pick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  margin-bottom: 5%;
+  font-family: "Titania", sans-serif;
+  color: #0f2f4d;
+  font-size: 48px;
+  padding: 7px 7px;
+}
+.instructions {
+  font-family: "Gotham", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #4e5862;
+  padding: 10px 10px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 14px;
+  width: 397px;
+}
+.what-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  text-align: center;
+  font: normal normal bold 16px/26px Gotham;
+  letter-spacing: 0px;
+  color: #222f3b;
+  opacity: 1;
+}
+.desk-dept {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 10px;
+
+  text-transform: uppercase;
+
+  background: #e08f49 0% 0% no-repeat;
+  box-shadow: inset 0px -3px 0px #c36b2a;
+  border-radius: 14px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal medium 14px/26px Gotham;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+#not-found {
+  height: 100vh;
+}
+.error-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f2f4d;
+  font-family: "Gotham";
+}
+#staff-img {
+  position: absolute;
+  top: 129px;
+  height: 183px;
+  z-index: 1;
+  /* margin-top: 100px; */
+}
+.confetti {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  /* border: 1px solid red; */
+  height: 3vh;
+  width: 3vw;
+  z-index: 100;
+}

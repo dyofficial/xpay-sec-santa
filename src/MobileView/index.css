@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  background-color: #216098;
+  width: 100vw;
+}
+.santa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+  position: relative;
+}
+.tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 100vw;
+  /* position: absolute; */
+  /* margin-top: 50px; */
+  background-color: #216098;
+}
+.titania {
+  font-family: "Titania", sans-serif;
+  /* font-family: "Titania Outline", sans-serif; */
+  color: #0f2f4d;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+  margin-bottom: 10px;
+  color: #809db7;
+  font-size: small;
+}
+.login-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  /* margin-bottom: 50px; */
+  background-color: #216098;
+  width: 100vw;
+  height: 15vh;
+}
+.login-page {
+  background-color: #216098;
+  /* margin: 0;
+  padding: 0; */
+  max-width: 100vw;
+}
+.login-tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #216098; */
+  width: 100vw;
+  /* position: absolute; */
+  /* margin-top: 50px; */
+  background-color: #216098;
+  /* margin-top: 30px; */
+  margin-top: -23px;
+}
+.greetings {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gotham", sans-serif;
+  font-size: 20px;
+  color: #0f2f4d;
+}
+.titania-welcome {
+  font-family: "Titania", sans-serif;
+  /* font-family: "Titania Outline", sans-serif; */
+  letter-spacing: 1.5;
+  font-size: 40px;
+
+  color: #0f2f4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instru {
+  font-family: "Gotham", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #4e5862;
+  padding: 10px 10px;
+  line-height: 1.6;
+  width: 300px;
+  text-align: left;
+  font-size: 16px;
+}
+.intro-ss {
+  /* border: 1px solid red; */
+  font-family: "Gotham", sans-serif;
+  line-height: 200%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.loading-msg {
+  font-family: "Gotham", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  /* font-size: 18pt; */
+  width: 268pt;
+  height: 18pt;
+  color: #0f2f4d;
+  font-size: large;
+}
+.image {
+  width: 100px;
+  border-radius: 50%;
+}
+.display-pick {
+  height: 50vw;
+  /* border: 1px solid green; */
+  z-index: 0;
+  background-color: #216098;
+}
+.dummy {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  z-index: -1;
+  margin-top: 50%;
+  /* border: 1px solid red; */
+  flex-direction: column;
+}
+.pick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-top: -30px;
+  margin-bottom: 5%;
+  font-family: "Titania", sans-serif;
+  /* font-family: "Titania Outline", sans-serif; */
+  color: #0f2f4d;
+  font-size: 40px;
+  padding: 7px 7px;
+  background-color: white;
+}
+.dept {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  /* margin: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Gotham", sans-serif;
+  height: 27px;
+  border-radius: 25pt;
+  padding: 17px 15px;
+  background-color: #e08f49;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0px 3px #c36b2a;
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+
+.submit-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  margin: 20px;
+  padding: 5px 5px;
+}
+.pic-art {
+  /* border: 1px solid red; */
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pick-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.pic-art > img {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.first {
+  margin-right: 225px;
+  position: absolute;
+  z-index: 1;
+}
+.second {
+  position: absolute;
+  margin-right: 120px;
+  z-index: 2;
+}
+.third {
+  position: absolute;
+  z-index: 6;
+}
+.fourth {
+  position: absolute;
+  margin-left: 120px;
+  z-index: 5;
+}
+.fifth {
+  position: absolute;
+  margin-left: 225px;
+  z-index: 4;
+}
+.instru-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px;
+  padding: 20px;
+}
+.display-logo {
+  border: 1px solid red;
+  background-color: #216098;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  position: absolute;
+  width: 100vw;
+}
+.display-tree {
+  /* border: 1px solid red;
+  background-color: #216098;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin-top: 30vh;
+  position: absolute;
+  width: 100vw; */
+  border: 1px solid red;
+  margin-top: 25vh;
+  position: absolute;
+}
+.display-pick-container {
+  position: absolute;
+  margin: 0px 0px;
+}
+.staff-image {
+  position: absolute;
+  display: flex;
+  height: 150pt;
+  border: 3px solid grey;
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: -5px;
+  margin-right: 50px;
+  width: 150pt;
+  background-color: #4e5862;
+}
+.underline {
+  height: 1px;
+  width: 275px;
+  background-color: #4e5862;
+  margin-left: 40px;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.w-n {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  font-family: "Gotham", sans-serif;
+  font-weight: 900;
+  color: #222f3b;
+  font-size: 17pt;
+}
+#done-logo {
+  /* border: 1px solid red; */
+  margin-left: auto;
+  margin-right: auto;
+}
