@@ -6,7 +6,8 @@ import trees from "./Images/trees.svg";
 import ava from "./Images/groupava.png";
 import Snowfall from "../MobileView/Snowfall";
 
-const Welcome = () => {
+const Welcome = (user) => {
+  // const [user, setUser] = useState({ name: "user", email: "" });
   return (
     <Box
       sx={{
@@ -25,7 +26,7 @@ const Welcome = () => {
           <img src={logo} alt="logo" className="ep-logo" />
           <img src={trees} alt="trees" className="header-trees" />
         </div>
-        <p className="hello">👋 Hello</p>
+        <p className="hello">👋 Hello {user.name}</p>
         <h4 className="pac">Pick a colleague</h4>
         <p className="tap-text">
           Tap on the button below to find out who you’re spoiling this

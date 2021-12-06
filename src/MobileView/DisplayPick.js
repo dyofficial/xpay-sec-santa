@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from "react";
-
 import Container from "@mui/material/Container";
 import { Button, CssBaseline } from "@mui/material";
-import logo from "./images/introduction/logo.png";
 import trees from "./images/introduction/tree2.svg";
-
 import { makeStyles } from "@mui/styles";
-import { ThemeProvider } from "@material-ui/styles";
-import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,7 +37,6 @@ const DisplayPick = () => {
   const [pick, setPick] = useState("");
   const [department, setDepartment] = useState("");
   const [image, setImage] = useState("");
-  const [confetti, setConfetti] = useState(false);
 
   useEffect(() => {
     const url = "https://dyofficial.github.io/Data/ep2.json";
@@ -74,7 +68,7 @@ const DisplayPick = () => {
         <img src={trees} alt="trees" style={{ width: "100vw", margin: "0" }} />
       </Container>
       <Container className={classes.santa} align="center">
-        <img src={image} alt="staff-image" className="staff-image" />
+        <img src={image} alt="staff" className="staff-image" />
       </Container>
       /{" "}
       <Container

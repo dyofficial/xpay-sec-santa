@@ -4,7 +4,6 @@ import logo from "./Images/expresspay_logo_large.png";
 import trees from "./Images/trees.svg";
 import LoadingOne from "../MobileView/LoadingOne";
 import { useHistory } from "react-router-dom";
-import Snowfall from "../MobileView/Snowfall";
 
 const FirstLoading = () => {
   const history = useHistory();

@@ -6,7 +6,6 @@ import Paper from "@mui/material/Paper";
 import logo from "./Images/expresspay_logo_large.png";
 import trees from "./Images/trees.svg";
 import Confetti from "../MobileView/Confetti";
-import Snowfall from "../MobileView/Snowfall";
 
 const DisplayPick = () => {
   const [staffList, setStaffList] = useState([]);
@@ -55,7 +54,7 @@ const DisplayPick = () => {
         </div>
         <div className="header">
           <img src={logo} alt="logo" className="ep-logo" />
-          <img src={image} alt="staff-image" id="staff-img" />
+          <img src={image} alt="staff" id="staff-img" />
           <img src={trees} alt="trees" className="header-trees" />
         </div>
         <div className="desk-pick">

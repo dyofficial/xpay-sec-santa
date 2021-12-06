@@ -4,12 +4,9 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Paper from "@mui/material/Paper";
-import santa from "./Images/santa.svg";
 import logo from "./Images/expresspay_logo_large.png";
 import trees from "./Images/trees.svg";
 import { makeStyles } from "@material-ui/core";
-import { ThemeProvider } from "@material-ui/styles";
-import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 import Snowfall from "../MobileView/Snowfall";
 
 const useStyles = makeStyles((theme) => ({

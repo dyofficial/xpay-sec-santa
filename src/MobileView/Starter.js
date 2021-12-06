@@ -1,11 +1,9 @@
 import Container from "@mui/material/Container";
-import { Button, CssBaseline, Typography } from "@mui/material";
+import { Button, CssBaseline } from "@mui/material";
 import logo from "./images/introduction/logo.png";
 import santa from "./images/introduction/santa.svg";
 import trees from "./images/introduction/tree2.svg";
-
 import { makeStyles } from "@mui/styles";
-import { fontSize } from "@mui/system";
 
 const useStyles = makeStyles((theme) => ({
   root: {
